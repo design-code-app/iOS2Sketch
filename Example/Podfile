@@ -1,0 +1,6 @@
+use_frameworks!
+target 'iOS2Sketch_Tests' do
+  pod 'iOS2Sketch', :path => '../'
+  
+  
+end

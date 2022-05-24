@@ -1,0 +1,16 @@
+PODS:
+  - iOS2Sketch (0.1.0)
+
+DEPENDENCIES:
+  - iOS2Sketch (from `../`)
+
+EXTERNAL SOURCES:
+  iOS2Sketch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOS2Sketch: c3f14e7f7b0a7947e5be811bb13a4a7331a46c0c
+
+PODFILE CHECKSUM: d0d23bd7f5df83fb629b54dc27458b11f5692e11
+
+COCOAPODS: 1.11.2
