@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'iOS2Sketch'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of iOS2Sketch.'
-
+  s.summary          = 'iOS2Sketch: Generate corresponding Sketch documents from iOS runtime views.'
+  s.vendored_frameworks = "iOS2Sketch/Frameworks/iOS2Sketch.xcframework"
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,14 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  iOS2Sketch can capture iOS App UI runtime information and display it with the layers of UI design tool Sketch.
+  In this way, users can view UI information in Sketch, and then modify these layers based on them.
                        DESC
 
-  s.homepage         = 'https://github.com/lianxianghui/iOS2Sketch'
+  s.homepage         = 'https://ios2sketch.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lianxianghui' => 'lianxianghui@hotmail.com' }
-  s.source           = { :git => 'https://github.com/lianxianghui/iOS2Sketch.git', :tag => s.version.to_s }
+  s.license          = { :type => 'Commercial'}
+  s.author           = { 'lianxianghui' => 'lianxianghui@ios2sketch.com' }
+  s.source           = { :git => 'https://github.com/design-code-app/iOS2Sketch.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

@@ -1,0 +1,49 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98ddceeffb32ab233ad7c3026cecfcc899"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98df8d4d00f47fbaf877663e74cb6c11e6"
+    }
+  ],
+  "containerPath" : "/Users/lian/code/github/A_iOSApp2Sketch/iOS2Sketch/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/lian/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/lian/Library/Developer/Xcode/DerivedData/Pods-dwiqomknxeswqneggglmwfaciejd/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/lian/Library/Developer/Xcode/DerivedData/Pods-dwiqomknxeswqneggglmwfaciejd/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

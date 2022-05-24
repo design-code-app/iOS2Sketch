@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+iOS2Sketch in Pods, no dependencies
+Pods-iOS2Sketch_Tests in Pods, depends on:
+iOS2Sketch in Pods (explicit)

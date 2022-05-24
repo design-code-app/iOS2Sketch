@@ -1,0 +1,6 @@
+framework module iOS2Sketch {
+  umbrella header "iOS2Sketch.h"
+
+  export *
+  module * { export * }
+}
