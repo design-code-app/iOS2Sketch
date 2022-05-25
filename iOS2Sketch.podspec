@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOS2Sketch'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'iOS2Sketch: Generate corresponding Sketch documents from iOS runtime views.'
-  s.vendored_frameworks = "iOS2Sketch/Frameworks/iOS2Sketch.xcframework"
+
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -24,15 +24,13 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://ios2sketch.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'Commercial'}
+  s.license          = { :type => 'Commercial', :text => 'See http://www.ios2sketch.com/terms/' }
   s.author           = { 'lianxianghui' => 'lianxianghui@ios2sketch.com' }
-  s.source           = { :git => 'https://github.com/design-code-app/iOS2Sketch.git', :tag => s.version.to_s }
+  s.source           = { :http => 'https://github.com/design-code-app/iOS2Sketch/releases/download/0.1.0/iOS2Sketch-0.1.1.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'iOS2Sketch/Classes/**/*'
-  
+  s.ios.deployment_target = '10.2'
+  s.ios.vendored_frameworks = 'iOS2Sketch.xcframework'
   # s.resource_bundles = {
   #   'iOS2Sketch' => ['iOS2Sketch/Assets/*.png']
   # }
